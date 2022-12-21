@@ -129,7 +129,7 @@ header{
 }
 .introduction-sec{
     .container-wide{
-        background-image: url(../assets/image/IMAGE.png);
+        background-image: url(../image/IMAGE.png);
         background-size: cover;
         width: 100%;
         height: 716px;
@@ -215,22 +215,22 @@ header{
             padding-top: 42px;
             padding-bottom: 100px;
             .product-photography{
-                background-image: url(../assets/image/IMAGE\ \(1\).png);
+                background-image: url(../image/IMAGE\ \(1\).png);
                 @include photo-card();
                 @include photo-card-content();
             }
             .architecture-photography{
-                background-image: url(../assets/image/IMAGE\ \(2\).png);
+                background-image: url(../image/IMAGE\ \(2\).png);
                 @include photo-card();
                 @include photo-card-content();
             }
             .drone-photography{
-                background-image: url(../assets/image/IMAGE\ \(3\).png);
+                background-image: url(../image/IMAGE\ \(3\).png);
                 @include photo-card();
                 @include photo-card-content();
             }
             .wildlife-photography{
-                background-image: url(../assets/image/IMAGE\ \(4\).png);
+                background-image: url(../image/IMAGE\ \(4\).png);
                 @include photo-card();
                 @include photo-card-content();
             }
@@ -239,7 +239,7 @@ header{
 }
 .sunset-fuji{
     .container-wide{
-        background-image: url(../assets/image/sunsetfuji.png);
+        background-image: url(../image/sunsetfuji.png);
         width: 100%;
         background-size: cover;
         height: 600px;
@@ -302,7 +302,7 @@ header{
         justify-content: flex-end;
         align-items: flex-end;
         width: 50%;
-        background-image: url(../assets/image/toolsphoto.png);
+        background-image: url(../image/toolsphoto.png);
         background-repeat: no-repeat;
         background-size: cover;
         height: 600px;
@@ -313,7 +313,7 @@ header{
 }
 .monstera-leafs{
     .container-wide{
-        background-image: url(../assets/image/monstera.png);
+        background-image: url(../image/monstera.png);
         width: 100%;
         height: 700px;
         background-size: cover;
@@ -371,7 +371,7 @@ header{
 }
 .star-fall{
     .container-wide{
-        background-image: url(../assets/image/starfall.png);
+        background-image: url(../image/starfall.png);
         width: 100%;
         background-size: cover;
         height: 600px;
@@ -519,3 +519,57 @@ header{
     }
 }
 
+@media screen and (max-width:390px) {
+    header{
+        .container-wide{
+            max-width: 100%;
+            margin: 0 0;
+            nav{
+                display: none;
+                li{
+                    margin-left: 0px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:390px){
+    .introduction-sec{
+        .container-wide{
+            max-width: 100%;
+            width: 100%;
+            .information{
+                align-items: center;
+                .photographer{
+                    margin-bottom: 0px;
+                    font-weight: 400;
+                    font-size: 10px;
+                    line-height: 20px;
+                    letter-spacing: 1px ;
+                }
+                h1{
+                    margin-bottom: 18px;
+                    font-size: 34px;
+                    line-height: 59px;
+                    letter-spacing: 2px;
+                }
+                p{
+                    font-size: 10px;
+                    line-height: 10px;
+                }
+            }
+            .information-icons{
+                margin-bottom: 0px;
+                ul{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    li{
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

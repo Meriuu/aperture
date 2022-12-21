@@ -68,7 +68,7 @@ header .header nav ul button {
 }
 
 .introduction-sec .container-wide {
-  background-image: url(../assets/image/IMAGE.png);
+  background-image: url(../image/IMAGE.png);
   background-size: cover;
   width: 100%;
   height: 716px;
@@ -156,7 +156,7 @@ header .header nav ul button {
   padding-bottom: 100px;
 }
 .what-we-do-sec .what-we-do .photography-cards .product-photography {
-  background-image: url(../assets/image/IMAGE\ \(1\).png);
+  background-image: url(../image/IMAGE\ \(1\).png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
@@ -183,7 +183,7 @@ header .header nav ul button {
   text-align: left;
 }
 .what-we-do-sec .what-we-do .photography-cards .architecture-photography {
-  background-image: url(../assets/image/IMAGE\ \(2\).png);
+  background-image: url(../image/IMAGE\ \(2\).png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
@@ -210,7 +210,7 @@ header .header nav ul button {
   text-align: left;
 }
 .what-we-do-sec .what-we-do .photography-cards .drone-photography {
-  background-image: url(../assets/image/IMAGE\ \(3\).png);
+  background-image: url(../image/IMAGE\ \(3\).png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
@@ -237,7 +237,7 @@ header .header nav ul button {
   text-align: left;
 }
 .what-we-do-sec .what-we-do .photography-cards .wildlife-photography {
-  background-image: url(../assets/image/IMAGE\ \(4\).png);
+  background-image: url(../image/IMAGE\ \(4\).png);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
@@ -265,7 +265,7 @@ header .header nav ul button {
 }
 
 .sunset-fuji .container-wide {
-  background-image: url(../assets/image/sunsetfuji.png);
+  background-image: url(../image/sunsetfuji.png);
   width: 100%;
   background-size: cover;
   height: 600px;
@@ -344,7 +344,7 @@ header .header nav ul button {
   justify-content: flex-end;
   align-items: flex-end;
   width: 50%;
-  background-image: url(../assets/image/toolsphoto.png);
+  background-image: url(../image/toolsphoto.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -354,7 +354,7 @@ header .header nav ul button {
 }
 
 .monstera-leafs .container-wide {
-  background-image: url(../assets/image/monstera.png);
+  background-image: url(../image/monstera.png);
   width: 100%;
   height: 700px;
   background-size: cover;
@@ -430,7 +430,7 @@ header .header nav ul button {
 }
 
 .star-fall .container-wide {
-  background-image: url(../assets/image/starfall.png);
+  background-image: url(../image/starfall.png);
   width: 100%;
   background-size: cover;
   height: 600px;
@@ -584,86 +584,52 @@ header .header nav ul button {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 390px) {
   header .container-wide {
-    width: 100%;
-    max-width: 100% !important;
-    margin: 0px 0px !important;
+    max-width: 100%;
+    margin: 0 0;
   }
-  header .container-wide .header {
-    height: 10vh;
-    width: 100%;
-  }
-  header .container-wide .header nav {
-    display: none;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .introduction-sec .container-wide {
-    background-image: url(../assets/image/IMAGE.png);
-    background-size: cover;
-    height: 716px;
-    width: 100%;
-    max-width: 100% !important;
-    margin: 0px 0px !important;
-  }
-  .introduction-sec .container-wide .introduction {
-    height: 100%;
-    width: 100%;
-    z-index: 98;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .introduction-sec .container-wide .introduction .information {
-    padding: 0 !important;
-    margin: 0 !important;
+  header .container-wide nav {
     display: none;
   }
-  .introduction-sec .container-wide .introduction .information .photographer {
-    color: #C0C0C0;
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .introduction-sec .container-wide .introduction .information h1 {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .introduction-sec .container-wide .introduction .information p {
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-  .introduction-sec .container-wide .introduction .information-icons {
-    margin-bottom: 0px;
-    display: none;
+  header .container-wide nav li {
+    margin-left: 0px;
   }
 }
-@media screen and (max-width: 420px) {
-  .what-we-do-sec .container-wide {
+@media screen and (max-width: 390px) {
+  .introduction-sec .container-wide {
     max-width: 100%;
-    margin: 0px 0px;
+    width: 100%;
   }
-  .what-we-do-sec .container-wide .product-photography {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+  .introduction-sec .container-wide .information {
+    align-items: center;
   }
-  .what-we-do-sec .container-wide .product-photography h4 {
+  .introduction-sec .container-wide .information .photographer {
+    margin-bottom: 0px;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 10px;
     line-height: 20px;
-    color: #fff;
+    letter-spacing: 1px;
+  }
+  .introduction-sec .container-wide .information h1 {
+    margin-bottom: 18px;
+    font-size: 34px;
+    line-height: 59px;
     letter-spacing: 2px;
   }
-  .what-we-do-sec .container-wide .product-photography p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    color: #C0C0C0;
-    margin-bottom: 20px;
-    text-align: left;
+  .introduction-sec .container-wide .information p {
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .introduction-sec .container-wide .information-icons {
+    margin-bottom: 0px;
+  }
+  .introduction-sec .container-wide .information-icons ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .introduction-sec .container-wide .information-icons ul li {
+    margin-right: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
