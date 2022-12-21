@@ -82,6 +82,21 @@ $pcolor: #C0C0C0;
         justify-content: flex-end;
         margin: 40px;
 }
+@mixin photo-card-content-mobile{
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+    h4{
+        font-size: 10px;
+    }
+    p{
+        font-size: 10px;
+    }
+    svg{
+        width: auto;
+        height: 30px;
+    }
+}
 header{
     .container-wide{
         background-color: #181818;
@@ -519,7 +534,7 @@ header{
     }
 }
 
-@media screen and (max-width:390px) {
+@media screen and (max-width:480px) {
     header{
         .container-wide{
             max-width: 100%;
@@ -534,13 +549,14 @@ header{
     }
 }
 
-@media screen and (max-width:390px){
+@media screen and (max-width:480px){
     .introduction-sec{
         .container-wide{
             max-width: 100%;
             width: 100%;
             .information{
                 align-items: center;
+                padding: 40px;
                 .photographer{
                     margin-bottom: 0px;
                     font-weight: 400;
@@ -573,3 +589,277 @@ header{
         }
     }
 }
+
+@media screen and (max-width:480px){
+    .what-we-do-sec{
+        .container-wide{
+            max-width: 90%;
+            .what-we-do{
+                h2{
+                    font-size: 30px;
+                }
+                p{
+                    font-size: 13px;
+                }
+            }
+            .photography-cards{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                padding-top: 42px;
+                padding-bottom: 100px;
+                .product-photography{
+                    @include photo-card-content-mobile()
+                }
+                .architecture-photography{
+                    @include photo-card-content-mobile()
+                }
+                .drone-photography{
+                    @include photo-card-content-mobile()
+                }
+                .wildlife-photography{
+                    @include photo-card-content-mobile()
+                }
+        }   }
+    }
+}
+
+@media screen and (max-width:480px){
+    .sunset-fuji{
+        .container-wide{
+            max-width: 100%;
+            height: 300px;
+            .sunset-content{
+                justify-content: center;
+                padding-bottom: 0px;
+                h4{
+                    font-size: 10px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .sunset-icons{
+                margin-bottom: 20px;
+                svg{
+                    width: auto;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .tools{
+        .container-wide{
+            height: auto;
+            display: flex;
+            max-width: 90%;
+            .tools-information{
+                height:40vh;
+                .info-bar{
+                    h4{
+                        font-size: 10px;
+                    }
+                    h5{
+                        font-size: 12px;
+                        padding-top: 3px;
+                    }
+                    p{
+                        font-size: 8px;
+                        padding-top: 3px;
+                    }
+                    svg{
+                        height: 22px;
+                        padding-top: 3px;
+                    }
+                }
+            }
+            .tools-photo{
+                height: auto;
+                width: 50%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .monstera-leafs{
+        .container-wide{
+            max-width: 100%;
+            height: 300px;
+            .monstera-content{
+                justify-content: center;
+                padding-bottom: 0px;
+                h4{
+                    font-size: 10px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .monstera-icons{
+                margin-bottom: 20px;
+                svg{
+                    width: auto;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .past-clients{
+        .container-wide{
+            max-width: 90%;
+            height: 40vh;
+            .past-clients-text{
+                h1{
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 15px;
+                    padding-top: 5px;
+                }
+            }
+            .clients-logo{
+                padding-top: 40px;
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    li{
+                        margin-top: 20px;
+                        margin-left: 50px;
+                        img{
+                            width: 70px;
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
+
+@media screen and (max-width:480px){
+    .star-fall{
+        .container-wide{
+            max-width: 100%;
+            height: 300px;
+            .starfall-content{
+                margin-right: 0px;
+                justify-content: center;
+                padding-bottom: 0px;
+                h4{
+                    font-size: 10px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .starfall-icons{
+                margin-bottom: 20px;
+                svg{
+                    width: auto;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .need-help{
+        .need-help-text{
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .need-help-icon{
+            svg{
+                height: 30px;
+                padding-bottom: 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+    .footer-first-layer{
+        .container-footer{
+            max-width: 90%;
+            .first-layer-text{
+                text-align: center;
+                svg{
+                    height: 20px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            .first-layer-links{
+                li{
+                    font-size: 8px;
+                }
+                .business-areas{
+                    padding-right: 20px;
+                    .business{
+                        font-size: 10px;
+                    }
+                }
+                .pages{
+                    padding-right: 30px;
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:480px){
+    .footer-second-layer{
+        .container-footer{
+            max-width: 80%;
+            .second-layer-text{
+                h4{
+                    font-size: 12px;
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+            svg{
+                width: 200px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+    .footer-third-layer{
+        .container-footer{
+            max-width: 80%;
+            .third-layer-text{
+                p{
+                    font-size: 10px;
+                }
+            }
+            .socials{
+                ul{
+                    li{
+                        margin-right: 3px;
+                        svg{
+                            height: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -584,7 +584,7 @@ header .header nav ul button {
   margin-right: 20px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   header .container-wide {
     max-width: 100%;
     margin: 0 0;
@@ -596,13 +596,14 @@ header .header nav ul button {
     margin-left: 0px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 480px) {
   .introduction-sec .container-wide {
     max-width: 100%;
     width: 100%;
   }
   .introduction-sec .container-wide .information {
     align-items: center;
+    padding: 40px;
   }
   .introduction-sec .container-wide .information .photographer {
     margin-bottom: 0px;
@@ -631,5 +632,278 @@ header .header nav ul button {
   }
   .introduction-sec .container-wide .information-icons ul li {
     margin-right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .what-we-do-sec .container-wide {
+    max-width: 90%;
+  }
+  .what-we-do-sec .container-wide .what-we-do h2 {
+    font-size: 30px;
+  }
+  .what-we-do-sec .container-wide .what-we-do p {
+    font-size: 13px;
+  }
+  .what-we-do-sec .container-wide .photography-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 42px;
+    padding-bottom: 100px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .product-photography {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .product-photography h4 {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .product-photography p {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .product-photography svg {
+    width: auto;
+    height: 30px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .architecture-photography {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .architecture-photography h4 {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .architecture-photography p {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .architecture-photography svg {
+    width: auto;
+    height: 30px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .drone-photography {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .drone-photography h4 {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .drone-photography p {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .drone-photography svg {
+    width: auto;
+    height: 30px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .wildlife-photography {
+    width: 50%;
+    height: 300px;
+    margin-bottom: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .wildlife-photography h4 {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .wildlife-photography p {
+    font-size: 10px;
+  }
+  .what-we-do-sec .container-wide .photography-cards .wildlife-photography svg {
+    width: auto;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .sunset-fuji .container-wide {
+    max-width: 100%;
+    height: 300px;
+  }
+  .sunset-fuji .container-wide .sunset-content {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .sunset-fuji .container-wide .sunset-content h4 {
+    font-size: 10px;
+  }
+  .sunset-fuji .container-wide .sunset-content p {
+    font-size: 10px;
+  }
+  .sunset-fuji .container-wide .sunset-icons {
+    margin-bottom: 20px;
+  }
+  .sunset-fuji .container-wide .sunset-icons svg {
+    width: auto;
+    height: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .tools .container-wide {
+    height: auto;
+    display: flex;
+    max-width: 90%;
+  }
+  .tools .container-wide .tools-information {
+    height: 40vh;
+  }
+  .tools .container-wide .tools-information .info-bar h4 {
+    font-size: 10px;
+  }
+  .tools .container-wide .tools-information .info-bar h5 {
+    font-size: 12px;
+    padding-top: 3px;
+  }
+  .tools .container-wide .tools-information .info-bar p {
+    font-size: 8px;
+    padding-top: 3px;
+  }
+  .tools .container-wide .tools-information .info-bar svg {
+    height: 22px;
+    padding-top: 3px;
+  }
+  .tools .container-wide .tools-photo {
+    height: auto;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .monstera-leafs .container-wide {
+    max-width: 100%;
+    height: 300px;
+  }
+  .monstera-leafs .container-wide .monstera-content {
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .monstera-leafs .container-wide .monstera-content h4 {
+    font-size: 10px;
+  }
+  .monstera-leafs .container-wide .monstera-content p {
+    font-size: 10px;
+  }
+  .monstera-leafs .container-wide .monstera-icons {
+    margin-bottom: 20px;
+  }
+  .monstera-leafs .container-wide .monstera-icons svg {
+    width: auto;
+    height: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .past-clients .container-wide {
+    max-width: 90%;
+    height: 40vh;
+  }
+  .past-clients .container-wide .past-clients-text h1 {
+    font-size: 20px;
+  }
+  .past-clients .container-wide .past-clients-text p {
+    font-size: 15px;
+    padding-top: 5px;
+  }
+  .past-clients .container-wide .clients-logo {
+    padding-top: 40px;
+  }
+  .past-clients .container-wide .clients-logo ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .past-clients .container-wide .clients-logo ul li {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .past-clients .container-wide .clients-logo ul li img {
+    width: 70px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .star-fall .container-wide {
+    max-width: 100%;
+    height: 300px;
+  }
+  .star-fall .container-wide .starfall-content {
+    margin-right: 0px;
+    justify-content: center;
+    padding-bottom: 0px;
+  }
+  .star-fall .container-wide .starfall-content h4 {
+    font-size: 10px;
+  }
+  .star-fall .container-wide .starfall-content p {
+    font-size: 10px;
+  }
+  .star-fall .container-wide .starfall-icons {
+    margin-bottom: 20px;
+  }
+  .star-fall .container-wide .starfall-icons svg {
+    width: auto;
+    height: 13px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .need-help .need-help-text h1 {
+    font-size: 20px;
+  }
+  .need-help .need-help-text p {
+    font-size: 15px;
+  }
+  .need-help .need-help-icon svg {
+    height: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-first-layer .container-footer {
+    max-width: 90%;
+  }
+  .footer-first-layer .container-footer .first-layer-text {
+    text-align: center;
+  }
+  .footer-first-layer .container-footer .first-layer-text svg {
+    height: 20px;
+  }
+  .footer-first-layer .container-footer .first-layer-text p {
+    font-size: 10px;
+  }
+  .footer-first-layer .container-footer .first-layer-links li {
+    font-size: 8px;
+  }
+  .footer-first-layer .container-footer .first-layer-links .business-areas {
+    padding-right: 20px;
+  }
+  .footer-first-layer .container-footer .first-layer-links .business-areas .business {
+    font-size: 10px;
+  }
+  .footer-first-layer .container-footer .first-layer-links .pages {
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-second-layer .container-footer {
+    max-width: 80%;
+  }
+  .footer-second-layer .container-footer .second-layer-text h4 {
+    font-size: 12px;
+  }
+  .footer-second-layer .container-footer .second-layer-text p {
+    font-size: 10px;
+  }
+  .footer-second-layer .container-footer svg {
+    width: 200px;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .footer-third-layer .container-footer {
+    max-width: 80%;
+  }
+  .footer-third-layer .container-footer .third-layer-text p {
+    font-size: 10px;
+  }
+  .footer-third-layer .container-footer .socials ul li {
+    margin-right: 3px;
+  }
+  .footer-third-layer .container-footer .socials ul li svg {
+    height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
